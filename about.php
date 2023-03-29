@@ -81,7 +81,7 @@
                 </div>
                 <div class="col-md-5 col-12 about-pg-img-div">
                     <div class="about-pg-img">                        
-                        <img class="img-fluid" src="assets/images/about/about1.jpg.png" alt="">
+                        <img class="img-fluid" src="assets/images/about/about1.png" alt="">
                         <div class="about-pg-img-sm-box">
                             <h2>25 +</h2>
                             <p>Years of experience</p>
@@ -217,7 +217,9 @@
         <?php include 'inc/footer.php'; ?>
     <!-- footer end-->
 
-
+    <script>
+        document.getElementById("about-pg-nav-link").classList.add("active")
+    </script>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <!-- bootstrap -->
@@ -232,6 +234,8 @@
     <script src="assets/js/jquery.fancybox.min.js"></script>
     <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- smooth scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 </body>

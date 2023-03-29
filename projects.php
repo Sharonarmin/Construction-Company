@@ -26,7 +26,7 @@
     <!-- header end-->
 
     <!-- inneer pg banner -->
-    <div class="inner-pg-banner">
+    <div class="inner-pg-banner project-pg-banner">
         <div class="container">
             <div class="inner-pg-breadcrumb">
                 <h2 class="head">Projects</h2>
@@ -72,7 +72,20 @@
                     <div class="project-div">
                         <div class="project-img">
                             <div class="reveal">
-                                <img class="img-fluid" src="assets/images/projects-pg/project-1.jpg" alt="">
+                                <img class="img-fluid" src="assets/images/projects-pg/project-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="project-desc">
+                            <a href="project-inner.php">BARJIS TOWER</a>
+                            <h6>Sahafa District</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="project-div">
+                        <div class="project-img">
+                            <div class="reveal">
+                                <img class="img-fluid" src="assets/images/projects-pg/project-4.jpg" alt="">
                             </div>
                         </div>
                         <div class="project-desc">
@@ -98,7 +111,7 @@
                     <div class="project-div">
                         <div class="project-img">
                             <div class="reveal">
-                                <img class="img-fluid" src="assets/images/projects-pg/project-1.jpg" alt="">
+                                <img class="img-fluid" src="assets/images/projects-pg/project-2.jpg" alt="">
                             </div>
                         </div>
                         <div class="project-desc">
@@ -111,20 +124,7 @@
                     <div class="project-div">
                         <div class="project-img">
                             <div class="reveal">
-                                <img class="img-fluid" src="assets/images/projects-pg/project-1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="project-desc">
-                            <a href="project-inner.php">BARJIS TOWER</a>
-                            <h6>Sahafa District</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="project-div">
-                        <div class="project-img">
-                            <div class="reveal">
-                                <img class="img-fluid" src="assets/images/projects-pg/project-1.jpg" alt="">
+                                <img class="img-fluid" src="assets/images/projects-pg/project-4.jpg" alt="">
                             </div>
                         </div>
                         <div class="project-desc">
@@ -144,8 +144,9 @@
         <?php include 'inc/footer.php'; ?>
     <!-- footer end-->
 
-
-
+    <script>
+        document.getElementById("project-pg-nav-link").classList.add("active");
+    </script>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <!-- bootstrap -->
@@ -158,6 +159,8 @@
     <script src="assets/js/image-reveal.js"></script>
     <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- smooth scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 </body>

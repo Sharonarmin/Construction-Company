@@ -26,7 +26,7 @@
 
 
     <!-- inneer pg banner -->
-    <div class="inner-pg-banner">
+    <div class="inner-pg-banner contact-pg-banner">
         <div class="container">
             <div class="inner-pg-breadcrumb">
                 <h2 class="head">Contact Us</h2>
@@ -122,10 +122,7 @@
     <!-- map section start -->
 
     <div class="map-section">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9581849.2624356!2d-14.999572981789873!3d54.10355447247383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2sin!4v1679919602818!5m2!1sen!2sin"
-            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d463880.77862238436!2d46.1986926630948!3d24.72452563031031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1680073285432!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <!-- map section end -->
@@ -138,14 +135,17 @@
 
 
 
-
-
+    <script>
+        document.getElementById("contact-pg-nav-link").classList.add("active");
+    </script>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- smooth scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 </body>

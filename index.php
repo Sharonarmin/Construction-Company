@@ -36,7 +36,7 @@
                 <h1 data-aos="fade-up" data-aos-duration="1700">CREATING MODERN DESIGN <br class="sm-hide-br"> IN BUILDING CONSTRUCTION</h1>
                 <p data-aos="fade-up" data-aos-duration="2500">We provide the best architectural design,  construction and
                     building <br> maintenance services for you.</p>
-                <div data-aos="fade-up" data-aos-duration="3000"><a href="#" class="carousel-btn">Contact Now</a></div>
+                <div data-aos="fade-left" data-aos-duration="3000"><a href="#" class="carousel-btn">Contact Now</a></div>
             </div>
         </div>
     </div>
@@ -89,7 +89,7 @@
             <div class="row">
                 <div class="col-md-6 col-12 order-md-1 order-2 d-flex">
                     <div class="img-div">
-                        <img class="img-fluid" src="assets/images/about/about1.jpg.png" alt="" data-aos="fade-up" data-aos-duration="2000">
+                        <img class="img-fluid" src="assets/images/about/about2.png" alt="" data-aos="fade-up" data-aos-duration="2000">
                     </div>
                 </div>
                 <div class="col-md-6 col-12 d-flex  order-md-2 order-1">
@@ -383,10 +383,7 @@
     <!-- awards section end-->
 
 
-
     <!-- contact section -->
-
-
     <div class="contact-hp-section">
         <div class="container">
             <div class="row">
@@ -446,7 +443,9 @@
 <!-- footer end-->
 
 
-
+    <script>
+        document.getElementById("home-pg-nav-link").classList.add("active");
+    </script>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <!-- bootstrap -->
@@ -455,6 +454,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- owl carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <!-- smooth scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 

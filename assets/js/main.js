@@ -2,7 +2,7 @@
         $(document).ready(function () {
             setTimeout(() => {
                 $('.loader').remove();
-            }, 5200); // after 8 sec it will remove.
+            }, 1000); // after 8 sec it will remove.
         });
 
 

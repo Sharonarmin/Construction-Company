@@ -27,7 +27,7 @@
     <!-- header end-->
 
     <!-- inneer pg banner -->
-    <div class="inner-pg-banner">
+    <div class="inner-pg-banner servic-pg-banner">
         <div class="container">
             <div class="inner-pg-breadcrumb">
                 <h2 class="head">Services</h2>
@@ -47,7 +47,7 @@
     <div class="service-pg-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
+                <div class="col-lg-6 col-md-6 col-12">
                     <div class="service-card-pg" data-aos="fade-up">
                         <h3 class="head">DESIGN</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum doloremque consequatur mollitia
@@ -56,8 +56,8 @@
                             maiores quis?</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="service-card-pg" data-aos="fade-up">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="service-card-pg consulting-bg" data-aos="fade-up">
                         <h3 class="head">CONSULTING</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum doloremque consequatur mollitia
                             officiis tempore
@@ -65,18 +65,8 @@
                             maiores quis?</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="service-card-pg-paralax" data-aos="fade-up">
-                        <img src="assets/images/projects/project-1.jpg" alt="" data-speed="0.75" class="img-parallax">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="service-card-pg-paralax" data-aos="fade-up">
-                        <img src="assets/images/projects/project-2.jpg" alt="" data-speed="0.75" class="img-parallax">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="service-card-pg" data-aos="fade-up">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="service-card-pg supervision-bg" data-aos="fade-up">
                         <h3 class="head">SUPERVISION</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum doloremque consequatur mollitia
                             officiis tempore
@@ -84,8 +74,8 @@
                             maiores quis?</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="service-card-pg" data-aos="fade-up">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="service-card-pg estimation-bg" data-aos="fade-up">
                         <h3 class="head">ESTIMATION</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum doloremque consequatur mollitia
                             officiis tempore
@@ -104,8 +94,9 @@
     <?php include 'inc/footer.php'; ?>
 <!-- footer end-->
 
-
-
+    <script>
+        document.getElementById("service-pg-nav-link").classList.add("active");
+    </script>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <!-- bootstrap -->
@@ -114,6 +105,8 @@
     <script src="assets/js/paralx.js"></script>
     <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- smooth scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 

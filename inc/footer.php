@@ -39,7 +39,11 @@
                 </div>
                 <div class="col-md-6 col-6">
                     <div class="d-flex align-items-end">
-                        <div><img class="logo-ftr-img" src="assets/images/logo/logo.png" alt=""></div>
+                        <div>
+                            <a href="index.php">
+                                <img class="logo-ftr-img" src="assets/images/logo/logo.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-6">

@@ -78,6 +78,12 @@ body {
     transition: all .3s ease-in-out;
 }
 
+
+
+.hndz-nav .nav-item .nav-link.active {
+    color: var(--primary-col);
+}
+
 .hndz-nav .nav-item .nav-link:hover {
     color: var(--primary-col);
 }
@@ -136,7 +142,7 @@ body {
 .carousel-section {
     height: 100vh;
     width: 100%;
-    background-image: url("../images/carousel/carousel.jpg");
+    background-image: url("../images/carousel/carousel-comp.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -144,6 +150,7 @@ body {
     z-index: 1;
     display: flex;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .carousel-section::after {
@@ -1068,6 +1075,13 @@ footer{
         align-items: center;
         padding: 10px;
     }
+    .carousel-section {
+        height: 93vh;
+    }
+    
+    .carousel-section::after {
+        height: 93vh;
+    }
 }
 
 
@@ -1079,7 +1093,7 @@ footer{
         display: none;
     }
     .carousel-section .carousel-captions h1{
-        font-size: 38px;
+        font-size: 34px;
     }
     .carousel-section .carousel-captions p {
         display: none;
@@ -1090,7 +1104,7 @@ footer{
     }
     .carousel-section {
         align-items: end;
-        padding-bottom: 50px;
+        padding-bottom: 80px;
     }
     .navbar-box{
         padding: 6px;
@@ -1232,6 +1246,9 @@ footer{
         text-align: center;
         padding-bottom: 30px;
     }
+    .awards-section p{
+        width: 100%;
+    }
     
 }
 
@@ -1256,6 +1273,19 @@ footer{
     padding-bottom: 40px;
 
 }
+.servic-pg-banner{
+    background-image: url("../images/services/service-pg-banner.jpg");
+}
+.contact-pg-banner{
+    background-image: url("../images/contact-pg-banner.jpg");
+}
+.project-pg-banner{
+    background-image: url("../images/projects/project-pg-banner.jpg");
+
+}
+
+
+
 .inner-pg-banner::after{
     content: '';
     position: absolute;
@@ -1660,6 +1690,16 @@ overflow: hidden;
 }
 
 
+.consulting-bg{
+    background-image: url("../images/services/consulting.jpg");
+}
+.supervision-bg{
+    background-image: url("../images/services/supervision.jpg");  
+}
+.estimation-bg{
+    background-image: url("../images/services/estimation.jpg");  
+}
+
 .service-card-pg::after{
     content: '';
     position: absolute;
@@ -1960,15 +2000,110 @@ overflow: hidden;
     left: 0;
     position: fixed;
     display: block;
-    opacity: .9;
-    background-color: black;
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
     z-index: 99;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1111;
 }
   
 
 
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    scale: 2;
+  }
+  .lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+  }
+  .lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--primary-col);
+    margin: -4px 0 0 -4px;
+  }
+  .lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+  }
+  .lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+  }
+  .lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+  }
+  .lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+  }
+  .lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+  }
+  .lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+  }
+  .lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+  }
+  .lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+  }
+  .lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+  }
+  .lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+  }
+  .lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+  }
+  .lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+  }
+  .lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+  }
+  .lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+  }
+  .lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+  }
+  .lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+  }
+  @keyframes lds-roller {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
 
+
+  .loader img{
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }

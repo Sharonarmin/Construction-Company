@@ -51,7 +51,7 @@
                 <h6>Sahafa District</h6>
             </div>
             <div class="single-project-lg-img">
-                <img class="img-fluid" src="assets/images/about/mission-vision-bg.jpg" alt="">
+                <img class="img-fluid" src="assets/images/carousel/carousel-comp.jpg" alt="">
             </div>
         </div>
     </div>
@@ -148,6 +148,8 @@
     <script src="assets/js/jquery.fancybox.min.js"></script>
     <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- smooth scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 </body>
