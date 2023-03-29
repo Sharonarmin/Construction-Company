@@ -136,7 +136,7 @@
 
 
     <script>
-        document.getElementById("contact-pg-nav-link").classList.add("active");
+        document.querySelectorAll(".contact-pg-nav-link").forEach((item) => item.classList.add("active"))
     </script>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>

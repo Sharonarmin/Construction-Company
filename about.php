@@ -217,8 +217,10 @@
         <?php include 'inc/footer.php'; ?>
     <!-- footer end-->
 
+
+
     <script>
-        document.getElementById("about-pg-nav-link").classList.add("active")
+        document.querySelectorAll(".about-pg-nav-link").forEach((item) => item.classList.add("active"))
     </script>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
